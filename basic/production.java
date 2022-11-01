@@ -6,7 +6,7 @@ public class production {
     PrintWriter bw = new PrintWriter(
         new OutputStreamWriter(System.out), true);
         int start = 0;
-        int finish = 100000000;
+        int finish = 1000000;
 
         while(start <= finish){
                 bw.println("HALLO World");
